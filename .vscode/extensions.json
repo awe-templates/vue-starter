@@ -2,6 +2,7 @@
     "recommendations": [
         "vue.volar",
         "Vue.vscode-typescript-vue-plugin",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "naumovs.color-highlight"
     ]
 }
