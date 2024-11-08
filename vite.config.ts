@@ -1,18 +1,17 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import tailwindcss from "tailwindcss";
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
-// https://vitejs.dev/config/
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
 
   server: {
     port: 3000,
   },
-
-  css: {
-    postcss: {
-      plugins: [tailwindcss],
-    },
+  build: {
+    outDir: "dist",
+  },
+  preview: {
+    port: 3001,
   },
 });

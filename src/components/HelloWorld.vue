@@ -7,10 +7,10 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1 class="bg-emerald-500">{{ msg }}</h1>
+  <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button class="border border-emerald-500 px-4 py-2" type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
@@ -30,8 +30,13 @@ const count = ref(0)
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
+<style scoped lang="scss">
+h1 {
+    @apply text-emerald-500 text-2xl px-4 py-2;
+
+}
+
+.card {
+    @apply flex flex-col justify-center items-center gap-4 my-10;
 }
 </style>
