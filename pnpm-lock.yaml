@@ -22,7 +22,7 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       eslint-plugin-vue:
-        specifier: ^9.18.1
+        specifier: ^9.30.0
         version: 9.30.0(eslint@8.57.1)
       postcss:
         specifier: ^8.4.47
