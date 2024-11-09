@@ -3,6 +3,7 @@
         "vue.volar",
         "Vue.vscode-typescript-vue-plugin",
         "esbenp.prettier-vscode",
-        "naumovs.color-highlight"
+        "naumovs.color-highlight",
+        "fabiospampinato.vscode-terminals"
     ]
 }
