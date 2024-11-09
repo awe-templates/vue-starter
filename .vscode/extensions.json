@@ -4,6 +4,7 @@
         "Vue.vscode-typescript-vue-plugin",
         "esbenp.prettier-vscode",
         "naumovs.color-highlight",
-        "fabiospampinato.vscode-terminals"
+        "fabiospampinato.vscode-terminals",
+        "sonarsource.sonarlint-vscode"
     ]
 }
